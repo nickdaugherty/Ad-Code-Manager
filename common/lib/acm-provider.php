@@ -70,7 +70,7 @@ class ACM_Provider {
 		echo 'User-agent: ' . $this->crawler_user_agent . PHP_EOL;
 
 		foreach ( $disallowed as $disallow ) {
-			echo 'Disallow: ' . $disallow . PHP_EOL;
+			echo 'Disallow: ' . $disallow . PHP_EOL . PHP_EOL;
 		}
 	}
 }
